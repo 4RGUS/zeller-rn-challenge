@@ -49,6 +49,6 @@ export interface GetZellerCustomerQuery {
 }
 
 export enum Roles {
-  ADMIN = "Admin",
-  MANAGER = "Manager",
+  ADMIN = "ADMIN",
+  MANAGER = "MANAGER",
 }

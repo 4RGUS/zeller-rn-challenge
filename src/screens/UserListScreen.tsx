@@ -1,5 +1,5 @@
 import React, { useCallback, useState } from "react";
-import { View, Text, ActivityIndicator } from "react-native";
+import { View, Text, ActivityIndicator, StyleSheet } from "react-native";
 import { useQuery } from "@apollo/client";
 import { LIST_ZELLER_CUSTOMERS } from "../graphql/queries";
 import { Listing } from "../components/Listing";
@@ -39,21 +39,14 @@ const UserListScreen = () => {
     );
 
   return (
-    <View style={{ flex: 1, padding: 30 }}>
-      <Text style={{ fontSize: 20, marginBottom: 16 }}>User Types</Text>
+    <View style={styles.container}>
+      <Text style={styles.userTypeTextStyle}>User Types</Text>
       <UserTypeButtons onPress={onPressHandle} selectedRole={selectedRole} />
 
-      <Text style={{ fontSize: 20, marginVertical: 16 }}>
-        {selectedRole} Users
-      </Text>
+      <Text style={styles.selectedRoleHeaderText}>{selectedRole} Users</Text>
 
-      <View style={{ flex: 1 }}>
-        {data ? (
-          <Listing
-            roleType={selectedRole}
-            data={data?.listZellerCustomers.items}
-          />
-        ) : null}
+      <View style={styles.userListContainer}>
+        {data ? <Listing data={data?.listZellerCustomers.items} /> : null}
         {error ? (
           <Text testID="error-message">Error: {error.message}</Text>
         ) : null}
@@ -63,3 +56,18 @@ const UserListScreen = () => {
 };
 
 export default UserListScreen;
+
+const styles = StyleSheet.create({
+  container: { flex: 1, padding: 30, backgroundColor: "#FFFFFF" },
+  userTypeTextStyle: {
+    fontSize: 20,
+    marginBottom: 16,
+  },
+  selectedRoleHeaderText: {
+    fontSize: 20,
+    marginVertical: 16,
+  },
+  userListContainer: {
+    flex: 1,
+  },
+});

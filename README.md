@@ -39,3 +39,10 @@ It allows users to **select a user role** and displays a **list of users** based
    ```bash
    npx expo start
    ```
+
+## ✨ Screenshots
+   <img src="https://github.com/user-attachments/assets/62a09686-1837-429f-bf7c-6d8a9002c8db" height="400">
+   <img src="https://github.com/user-attachments/assets/f7eacd6a-344b-4f92-aaa5-dff584b06f15" height="400">
+   <img src="https://github.com/user-attachments/assets/94c88d37-320a-4843-a5bd-d10e0cd20aa9" height="400">
+   <img src="https://github.com/user-attachments/assets/856dd5a8-0383-43b0-93c7-c3aabf94cea8" height="400">
+

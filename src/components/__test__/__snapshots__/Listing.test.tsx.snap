@@ -1,0 +1,953 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Listing component matches snapshot with empty data (uses mockedData) 1`] = `
+<RCTScrollView
+  data={
+    [
+      {
+        "email": "karen.stewart@example.com",
+        "id": "manager-1",
+        "name": "Karen Stewart",
+        "role": "Manager",
+      },
+      {
+        "email": "liam.price@example.com",
+        "id": "manager-2",
+        "name": "Liam Price",
+        "role": "Manager",
+      },
+      {
+        "email": "mia.howard@example.com",
+        "id": "manager-3",
+        "name": "Mia Howard",
+        "role": "Manager",
+      },
+      {
+        "email": "noah.scott@example.com",
+        "id": "manager-4",
+        "name": "Noah Scott",
+        "role": "Manager",
+      },
+      {
+        "email": "olivia.turner@example.com",
+        "id": "manager-5",
+        "name": "Olivia Turner",
+        "role": "Manager",
+      },
+      {
+        "email": "pauline.carter@example.com",
+        "id": "manager-6",
+        "name": "Pauline Carter",
+        "role": "Manager",
+      },
+      {
+        "email": "quinn.bailey@example.com",
+        "id": "manager-7",
+        "name": "Quinn Bailey",
+        "role": "Manager",
+      },
+      {
+        "email": "ryan.cooper@example.com",
+        "id": "manager-8",
+        "name": "Ryan Cooper",
+        "role": "Manager",
+      },
+      {
+        "email": "sophia.morgan@example.com",
+        "id": "manager-9",
+        "name": "Sophia Morgan",
+        "role": "Manager",
+      },
+      {
+        "email": "thomas.bennett@example.com",
+        "id": "manager-10",
+        "name": "Thomas Bennett",
+        "role": "Manager",
+      },
+    ]
+  }
+  getItem={[Function]}
+  getItemCount={[Function]}
+  keyExtractor={[Function]}
+  onContentSizeChange={[Function]}
+  onLayout={[Function]}
+  onMomentumScrollBegin={[Function]}
+  onMomentumScrollEnd={[Function]}
+  onScroll={[Function]}
+  onScrollBeginDrag={[Function]}
+  onScrollEndDrag={[Function]}
+  removeClippedSubviews={false}
+  renderItem={[Function]}
+  scrollEventThrottle={0.0001}
+  stickyHeaderIndices={[]}
+  viewabilityConfigCallbackPairs={[]}
+>
+  <View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "borderRadius": 8,
+            "flexDirection": "row",
+            "gap": 12,
+            "marginBottom": 8,
+            "padding": 12,
+            "paddingLeft": 0,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "backgroundColor": "#E6F0FF",
+              "borderRadius": 5,
+              "height": 45,
+              "justifyContent": "center",
+              "width": 45,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "#4D94FF",
+                "fontSize": 18,
+              }
+            }
+          >
+            K
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "width": "100%",
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Karen Stewart
+          </Text>
+          <Text
+            style={
+              {
+                "color": "#A9A9A9",
+              }
+            }
+          >
+            Manager
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "borderRadius": 8,
+            "flexDirection": "row",
+            "gap": 12,
+            "marginBottom": 8,
+            "padding": 12,
+            "paddingLeft": 0,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "backgroundColor": "#E6F0FF",
+              "borderRadius": 5,
+              "height": 45,
+              "justifyContent": "center",
+              "width": 45,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "#4D94FF",
+                "fontSize": 18,
+              }
+            }
+          >
+            L
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "width": "100%",
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Liam Price
+          </Text>
+          <Text
+            style={
+              {
+                "color": "#A9A9A9",
+              }
+            }
+          >
+            Manager
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "borderRadius": 8,
+            "flexDirection": "row",
+            "gap": 12,
+            "marginBottom": 8,
+            "padding": 12,
+            "paddingLeft": 0,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "backgroundColor": "#E6F0FF",
+              "borderRadius": 5,
+              "height": 45,
+              "justifyContent": "center",
+              "width": 45,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "#4D94FF",
+                "fontSize": 18,
+              }
+            }
+          >
+            M
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "width": "100%",
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Mia Howard
+          </Text>
+          <Text
+            style={
+              {
+                "color": "#A9A9A9",
+              }
+            }
+          >
+            Manager
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "borderRadius": 8,
+            "flexDirection": "row",
+            "gap": 12,
+            "marginBottom": 8,
+            "padding": 12,
+            "paddingLeft": 0,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "backgroundColor": "#E6F0FF",
+              "borderRadius": 5,
+              "height": 45,
+              "justifyContent": "center",
+              "width": 45,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "#4D94FF",
+                "fontSize": 18,
+              }
+            }
+          >
+            N
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "width": "100%",
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Noah Scott
+          </Text>
+          <Text
+            style={
+              {
+                "color": "#A9A9A9",
+              }
+            }
+          >
+            Manager
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "borderRadius": 8,
+            "flexDirection": "row",
+            "gap": 12,
+            "marginBottom": 8,
+            "padding": 12,
+            "paddingLeft": 0,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "backgroundColor": "#E6F0FF",
+              "borderRadius": 5,
+              "height": 45,
+              "justifyContent": "center",
+              "width": 45,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "#4D94FF",
+                "fontSize": 18,
+              }
+            }
+          >
+            O
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "width": "100%",
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Olivia Turner
+          </Text>
+          <Text
+            style={
+              {
+                "color": "#A9A9A9",
+              }
+            }
+          >
+            Manager
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "borderRadius": 8,
+            "flexDirection": "row",
+            "gap": 12,
+            "marginBottom": 8,
+            "padding": 12,
+            "paddingLeft": 0,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "backgroundColor": "#E6F0FF",
+              "borderRadius": 5,
+              "height": 45,
+              "justifyContent": "center",
+              "width": 45,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "#4D94FF",
+                "fontSize": 18,
+              }
+            }
+          >
+            P
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "width": "100%",
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Pauline Carter
+          </Text>
+          <Text
+            style={
+              {
+                "color": "#A9A9A9",
+              }
+            }
+          >
+            Manager
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "borderRadius": 8,
+            "flexDirection": "row",
+            "gap": 12,
+            "marginBottom": 8,
+            "padding": 12,
+            "paddingLeft": 0,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "backgroundColor": "#E6F0FF",
+              "borderRadius": 5,
+              "height": 45,
+              "justifyContent": "center",
+              "width": 45,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "#4D94FF",
+                "fontSize": 18,
+              }
+            }
+          >
+            Q
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "width": "100%",
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Quinn Bailey
+          </Text>
+          <Text
+            style={
+              {
+                "color": "#A9A9A9",
+              }
+            }
+          >
+            Manager
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "borderRadius": 8,
+            "flexDirection": "row",
+            "gap": 12,
+            "marginBottom": 8,
+            "padding": 12,
+            "paddingLeft": 0,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "backgroundColor": "#E6F0FF",
+              "borderRadius": 5,
+              "height": 45,
+              "justifyContent": "center",
+              "width": 45,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "#4D94FF",
+                "fontSize": 18,
+              }
+            }
+          >
+            R
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "width": "100%",
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Ryan Cooper
+          </Text>
+          <Text
+            style={
+              {
+                "color": "#A9A9A9",
+              }
+            }
+          >
+            Manager
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "borderRadius": 8,
+            "flexDirection": "row",
+            "gap": 12,
+            "marginBottom": 8,
+            "padding": 12,
+            "paddingLeft": 0,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "backgroundColor": "#E6F0FF",
+              "borderRadius": 5,
+              "height": 45,
+              "justifyContent": "center",
+              "width": 45,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "#4D94FF",
+                "fontSize": 18,
+              }
+            }
+          >
+            S
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "width": "100%",
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Sophia Morgan
+          </Text>
+          <Text
+            style={
+              {
+                "color": "#A9A9A9",
+              }
+            }
+          >
+            Manager
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "borderRadius": 8,
+            "flexDirection": "row",
+            "gap": 12,
+            "marginBottom": 8,
+            "padding": 12,
+            "paddingLeft": 0,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "backgroundColor": "#E6F0FF",
+              "borderRadius": 5,
+              "height": 45,
+              "justifyContent": "center",
+              "width": 45,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "#4D94FF",
+                "fontSize": 18,
+              }
+            }
+          >
+            T
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "width": "100%",
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Thomas Bennett
+          </Text>
+          <Text
+            style={
+              {
+                "color": "#A9A9A9",
+              }
+            }
+          >
+            Manager
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;
+
+exports[`Listing component matches snapshot with provided data 1`] = `
+<RCTScrollView
+  data={
+    [
+      {
+        "id": "1",
+        "name": "John Doe",
+        "role": "Admin",
+      },
+      {
+        "id": "2",
+        "name": "Jane Smith",
+        "role": "Manager",
+      },
+    ]
+  }
+  getItem={[Function]}
+  getItemCount={[Function]}
+  keyExtractor={[Function]}
+  onContentSizeChange={[Function]}
+  onLayout={[Function]}
+  onMomentumScrollBegin={[Function]}
+  onMomentumScrollEnd={[Function]}
+  onScroll={[Function]}
+  onScrollBeginDrag={[Function]}
+  onScrollEndDrag={[Function]}
+  removeClippedSubviews={false}
+  renderItem={[Function]}
+  scrollEventThrottle={0.0001}
+  stickyHeaderIndices={[]}
+  viewabilityConfigCallbackPairs={[]}
+>
+  <View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "borderRadius": 8,
+            "flexDirection": "row",
+            "gap": 12,
+            "marginBottom": 8,
+            "padding": 12,
+            "paddingLeft": 0,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "backgroundColor": "#E6F0FF",
+              "borderRadius": 5,
+              "height": 45,
+              "justifyContent": "center",
+              "width": 45,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "#4D94FF",
+                "fontSize": 18,
+              }
+            }
+          >
+            J
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "width": "100%",
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "fontWeight": "bold",
+              }
+            }
+          >
+            John Doe
+          </Text>
+          <Text
+            style={
+              {
+                "color": "#A9A9A9",
+              }
+            }
+          >
+            Admin
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "borderRadius": 8,
+            "flexDirection": "row",
+            "gap": 12,
+            "marginBottom": 8,
+            "padding": 12,
+            "paddingLeft": 0,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "backgroundColor": "#E6F0FF",
+              "borderRadius": 5,
+              "height": 45,
+              "justifyContent": "center",
+              "width": 45,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "#4D94FF",
+                "fontSize": 18,
+              }
+            }
+          >
+            J
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "width": "100%",
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Jane Smith
+          </Text>
+          <Text
+            style={
+              {
+                "color": "#A9A9A9",
+              }
+            }
+          >
+            Manager
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

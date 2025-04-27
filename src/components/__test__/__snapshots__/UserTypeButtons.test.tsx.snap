@@ -1,0 +1,279 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserTypeButtons component matches snapshot when Admin role is selected 1`] = `
+[
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "#E6F0FF",
+        "borderRadius": 8,
+        "flexDirection": "row",
+        "gap": 12,
+        "marginBottom": 8,
+        "opacity": 1,
+        "padding": 12,
+        "width": "100%",
+      }
+    }
+    testID="selected-role"
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "borderColor": "#4D94FF",
+          "borderRadius": 9,
+          "borderWidth": 2,
+          "height": 18,
+          "justifyContent": "center",
+          "width": 18,
+        }
+      }
+      testID="outer-circle"
+    >
+      <View
+        style={
+          {
+            "backgroundColor": "#4D94FF",
+            "borderRadius": 4,
+            "height": 8,
+            "width": 8,
+          }
+        }
+        testID="inner-circle"
+      />
+    </View>
+    <Text>
+      Admin
+    </Text>
+  </View>,
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "#FFF",
+        "borderRadius": 8,
+        "flexDirection": "row",
+        "gap": 12,
+        "marginBottom": 8,
+        "opacity": 1,
+        "padding": 12,
+        "width": "100%",
+      }
+    }
+    testID="un-selected-role"
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "borderColor": "#4D94FF",
+          "borderRadius": 9,
+          "borderWidth": 2,
+          "height": 18,
+          "justifyContent": "center",
+          "width": 18,
+        }
+      }
+      testID="outer-circle"
+    />
+    <Text>
+      Manager
+    </Text>
+  </View>,
+]
+`;
+
+exports[`UserTypeButtons component matches snapshot when Manager role is selected 1`] = `
+[
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "#FFF",
+        "borderRadius": 8,
+        "flexDirection": "row",
+        "gap": 12,
+        "marginBottom": 8,
+        "opacity": 1,
+        "padding": 12,
+        "width": "100%",
+      }
+    }
+    testID="un-selected-role"
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "borderColor": "#4D94FF",
+          "borderRadius": 9,
+          "borderWidth": 2,
+          "height": 18,
+          "justifyContent": "center",
+          "width": 18,
+        }
+      }
+      testID="outer-circle"
+    />
+    <Text>
+      Admin
+    </Text>
+  </View>,
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "#E6F0FF",
+        "borderRadius": 8,
+        "flexDirection": "row",
+        "gap": 12,
+        "marginBottom": 8,
+        "opacity": 1,
+        "padding": 12,
+        "width": "100%",
+      }
+    }
+    testID="selected-role"
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "borderColor": "#4D94FF",
+          "borderRadius": 9,
+          "borderWidth": 2,
+          "height": 18,
+          "justifyContent": "center",
+          "width": 18,
+        }
+      }
+      testID="outer-circle"
+    >
+      <View
+        style={
+          {
+            "backgroundColor": "#4D94FF",
+            "borderRadius": 4,
+            "height": 8,
+            "width": 8,
+          }
+        }
+        testID="inner-circle"
+      />
+    </View>
+    <Text>
+      Manager
+    </Text>
+  </View>,
+]
+`;

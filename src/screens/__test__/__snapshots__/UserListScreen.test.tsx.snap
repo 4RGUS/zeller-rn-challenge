@@ -1,0 +1,537 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserListScreen Snapshot matches snapshot on error 1`] = `
+<View
+  style={
+    {
+      "flex": 1,
+      "padding": 30,
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "fontSize": 20,
+        "marginBottom": 16,
+      }
+    }
+  >
+    User Types
+  </Text>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "#E6F0FF",
+        "borderRadius": 8,
+        "flexDirection": "row",
+        "gap": 12,
+        "marginBottom": 8,
+        "opacity": 1,
+        "padding": 12,
+        "width": "100%",
+      }
+    }
+    testID="selected-role"
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "borderColor": "#4D94FF",
+          "borderRadius": 9,
+          "borderWidth": 2,
+          "height": 18,
+          "justifyContent": "center",
+          "width": 18,
+        }
+      }
+      testID="outer-circle"
+    >
+      <View
+        style={
+          {
+            "backgroundColor": "#4D94FF",
+            "borderRadius": 4,
+            "height": 8,
+            "width": 8,
+          }
+        }
+        testID="inner-circle"
+      />
+    </View>
+    <Text>
+      Admin
+    </Text>
+  </View>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "#FFF",
+        "borderRadius": 8,
+        "flexDirection": "row",
+        "gap": 12,
+        "marginBottom": 8,
+        "opacity": 1,
+        "padding": 12,
+        "width": "100%",
+      }
+    }
+    testID="un-selected-role"
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "borderColor": "#4D94FF",
+          "borderRadius": 9,
+          "borderWidth": 2,
+          "height": 18,
+          "justifyContent": "center",
+          "width": 18,
+        }
+      }
+      testID="outer-circle"
+    />
+    <Text>
+      Manager
+    </Text>
+  </View>
+  <Text
+    style={
+      {
+        "fontSize": 20,
+        "marginVertical": 16,
+      }
+    }
+  >
+    Admin
+     Users
+  </Text>
+  <View
+    style={
+      {
+        "flex": 1,
+      }
+    }
+  >
+    <Text
+      testID="error-message"
+    >
+      Error: 
+      Something went wrong!
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`UserListScreen Snapshot matches snapshot when loading 1`] = `
+<ActivityIndicator
+  color="#000"
+  size="large"
+  testID="loading-spinner"
+/>
+`;
+
+exports[`UserListScreen Snapshot matches snapshot with data 1`] = `
+<View
+  style={
+    {
+      "flex": 1,
+      "padding": 30,
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "fontSize": 20,
+        "marginBottom": 16,
+      }
+    }
+  >
+    User Types
+  </Text>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "#E6F0FF",
+        "borderRadius": 8,
+        "flexDirection": "row",
+        "gap": 12,
+        "marginBottom": 8,
+        "opacity": 1,
+        "padding": 12,
+        "width": "100%",
+      }
+    }
+    testID="selected-role"
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "borderColor": "#4D94FF",
+          "borderRadius": 9,
+          "borderWidth": 2,
+          "height": 18,
+          "justifyContent": "center",
+          "width": 18,
+        }
+      }
+      testID="outer-circle"
+    >
+      <View
+        style={
+          {
+            "backgroundColor": "#4D94FF",
+            "borderRadius": 4,
+            "height": 8,
+            "width": 8,
+          }
+        }
+        testID="inner-circle"
+      />
+    </View>
+    <Text>
+      Admin
+    </Text>
+  </View>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "#FFF",
+        "borderRadius": 8,
+        "flexDirection": "row",
+        "gap": 12,
+        "marginBottom": 8,
+        "opacity": 1,
+        "padding": 12,
+        "width": "100%",
+      }
+    }
+    testID="un-selected-role"
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "borderColor": "#4D94FF",
+          "borderRadius": 9,
+          "borderWidth": 2,
+          "height": 18,
+          "justifyContent": "center",
+          "width": 18,
+        }
+      }
+      testID="outer-circle"
+    />
+    <Text>
+      Manager
+    </Text>
+  </View>
+  <Text
+    style={
+      {
+        "fontSize": 20,
+        "marginVertical": 16,
+      }
+    }
+  >
+    Admin
+     Users
+  </Text>
+  <View
+    style={
+      {
+        "flex": 1,
+      }
+    }
+  >
+    <RCTScrollView
+      data={
+        [
+          {
+            "id": "1",
+            "name": "John Doe",
+            "role": "Admin",
+          },
+          {
+            "id": "2",
+            "name": "Jane Smith",
+            "role": "Admin",
+          },
+        ]
+      }
+      getItem={[Function]}
+      getItemCount={[Function]}
+      keyExtractor={[Function]}
+      onContentSizeChange={[Function]}
+      onLayout={[Function]}
+      onMomentumScrollBegin={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={0.0001}
+      stickyHeaderIndices={[]}
+      viewabilityConfigCallbackPairs={[]}
+    >
+      <View>
+        <View
+          onFocusCapture={[Function]}
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "borderRadius": 8,
+                "flexDirection": "row",
+                "gap": 12,
+                "marginBottom": 8,
+                "padding": 12,
+                "paddingLeft": 0,
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "backgroundColor": "#E6F0FF",
+                  "borderRadius": 5,
+                  "height": 45,
+                  "justifyContent": "center",
+                  "width": 45,
+                }
+              }
+            >
+              <Text
+                style={
+                  {
+                    "color": "#4D94FF",
+                    "fontSize": 18,
+                  }
+                }
+              >
+                J
+              </Text>
+            </View>
+            <View
+              style={
+                {
+                  "width": "100%",
+                }
+              }
+            >
+              <Text
+                style={
+                  {
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                John Doe
+              </Text>
+              <Text
+                style={
+                  {
+                    "color": "#A9A9A9",
+                  }
+                }
+              >
+                Admin
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          onFocusCapture={[Function]}
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "borderRadius": 8,
+                "flexDirection": "row",
+                "gap": 12,
+                "marginBottom": 8,
+                "padding": 12,
+                "paddingLeft": 0,
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "backgroundColor": "#E6F0FF",
+                  "borderRadius": 5,
+                  "height": 45,
+                  "justifyContent": "center",
+                  "width": 45,
+                }
+              }
+            >
+              <Text
+                style={
+                  {
+                    "color": "#4D94FF",
+                    "fontSize": 18,
+                  }
+                }
+              >
+                J
+              </Text>
+            </View>
+            <View
+              style={
+                {
+                  "width": "100%",
+                }
+              }
+            >
+              <Text
+                style={
+                  {
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                Jane Smith
+              </Text>
+              <Text
+                style={
+                  {
+                    "color": "#A9A9A9",
+                  }
+                }
+              >
+                Admin
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+</View>
+`;

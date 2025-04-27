@@ -33,15 +33,10 @@ const UserListScreen = () => {
     [setSelectedRole, refetch]
   );
 
-  if (loading) return <ActivityIndicator size="large" color="#000" />;
-
-  if (error) {
-    console.log(JSON.stringify(error));
-  }
-
-  if (data) {
-    console.log(JSON.stringify(data));
-  }
+  if (loading)
+    return (
+      <ActivityIndicator testID="loading-spinner" size="large" color="#000" />
+    );
 
   return (
     <View style={{ flex: 1, padding: 30 }}>
@@ -53,11 +48,15 @@ const UserListScreen = () => {
       </Text>
 
       <View style={{ flex: 1 }}>
-        <Listing
-          roleType={selectedRole}
-          data={data?.listZellerCustomers.items}
-        />
-        {error ? <Text>Error: {error.message}</Text> : null}
+        {data ? (
+          <Listing
+            roleType={selectedRole}
+            data={data?.listZellerCustomers.items}
+          />
+        ) : null}
+        {error ? (
+          <Text testID="error-message">Error: {error.message}</Text>
+        ) : null}
       </View>
     </View>
   );

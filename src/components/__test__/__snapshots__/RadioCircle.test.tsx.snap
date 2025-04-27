@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RadioCircle component matches snapshot when not selected 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "borderColor": "#4D94FF",
+      "borderRadius": 9,
+      "borderWidth": 2,
+      "height": 18,
+      "justifyContent": "center",
+      "width": 18,
+    }
+  }
+/>
+`;
+
+exports[`RadioCircle component matches snapshot when selected 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "borderColor": "#4D94FF",
+      "borderRadius": 9,
+      "borderWidth": 2,
+      "height": 18,
+      "justifyContent": "center",
+      "width": 18,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "backgroundColor": "#4D94FF",
+        "borderRadius": 4,
+        "height": 8,
+        "width": 8,
+      }
+    }
+  />
+</View>
+`;

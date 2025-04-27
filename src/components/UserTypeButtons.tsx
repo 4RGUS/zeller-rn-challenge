@@ -17,6 +17,7 @@ export const UserTypeButtons = ({
     const backgroundColor = isSelected ? "#E6F0FF" : "#FFF";
     return (
       <TouchableOpacity
+        testID={isSelected ? "selected-role" : "un-selected-role"}
         onPress={() => onPress(role)}
         key={role}
         style={[styles.container, { backgroundColor }]}

@@ -3,6 +3,7 @@
 This project is a simple **React Native Expo** application built as part of a coding challenge.
 
 It allows users to **select a user role** and displays a **list of users** based on the selected role.
+It also allows to search user by their name.
 
 ---
 

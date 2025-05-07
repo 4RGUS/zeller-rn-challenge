@@ -10,9 +10,7 @@ describe("Listing Component", () => {
   ];
 
   it("renders list using provided data", () => {
-    const { getByText } = render(
-      <Listing data={sampleData} roleType={Roles.ADMIN} />
-    );
+    const { getByText } = render(<Listing data={sampleData} />);
 
     expect(getByText("Alice")).toBeTruthy();
     expect(getByText("Bob")).toBeTruthy();
@@ -20,9 +18,7 @@ describe("Listing Component", () => {
   });
 
   it("displays correct initials in initials box", () => {
-    const { getByText } = render(
-      <Listing data={sampleData} roleType={Roles.ADMIN} />
-    );
+    const { getByText } = render(<Listing data={sampleData} />);
 
     expect(getByText("A")).toBeTruthy();
     expect(getByText("B")).toBeTruthy();

@@ -12,8 +12,8 @@ It also allows to search user by their name.
 - **Role Selection:**  
   Two radio buttons allow users to switch between different user roles (e.g., Admin, Manager).  
   Based on the selected role, the corresponding list of users is displayed.
-  
 - **Tech Stack:**
+
   - Built with **React Native** using **Expo**.
   - Fully written in **TypeScript** for type safety and better developer experience.
 
@@ -25,11 +25,13 @@ It also allows to search user by their name.
 ## 🛠 Project Setup
 
 1. **Clone the repository:**
+
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/4RGUS/zeller-rn-challenge.git
+   cd zeller-rn-challenge
 
    ```
+
 2. **Install dependencies**
    ```bash
    npm install
@@ -42,8 +44,8 @@ It also allows to search user by their name.
    ```
 
 ## ✨ Screenshots
+
    <img src="https://github.com/user-attachments/assets/62a09686-1837-429f-bf7c-6d8a9002c8db" height="400">
    <img src="https://github.com/user-attachments/assets/f7eacd6a-344b-4f92-aaa5-dff584b06f15" height="400">
    <img src="https://github.com/user-attachments/assets/94c88d37-320a-4843-a5bd-d10e0cd20aa9" height="400">
    <img src="https://github.com/user-attachments/assets/856dd5a8-0383-43b0-93c7-c3aabf94cea8" height="400">
-

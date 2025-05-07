@@ -72,7 +72,7 @@ exports[`UserTypeButtons component matches snapshot when Admin role is selected 
       />
     </View>
     <Text>
-      Admin
+      ADMIN
     </Text>
   </View>,
   <View
@@ -133,7 +133,7 @@ exports[`UserTypeButtons component matches snapshot when Admin role is selected 
       testID="outer-circle"
     />
     <Text>
-      Manager
+      MANAGER
     </Text>
   </View>,
 ]
@@ -199,7 +199,7 @@ exports[`UserTypeButtons component matches snapshot when Manager role is selecte
       testID="outer-circle"
     />
     <Text>
-      Admin
+      ADMIN
     </Text>
   </View>,
   <View
@@ -272,7 +272,7 @@ exports[`UserTypeButtons component matches snapshot when Manager role is selecte
       />
     </View>
     <Text>
-      Manager
+      MANAGER
     </Text>
   </View>,
 ]

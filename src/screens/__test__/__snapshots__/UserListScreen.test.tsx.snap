@@ -4,6 +4,7 @@ exports[`UserListScreen Snapshot matches snapshot on error 1`] = `
 <View
   style={
     {
+      "backgroundColor": "#FFFFFF",
       "flex": 1,
       "padding": 30,
     }
@@ -89,7 +90,7 @@ exports[`UserListScreen Snapshot matches snapshot on error 1`] = `
       />
     </View>
     <Text>
-      Admin
+      ADMIN
     </Text>
   </View>
   <View
@@ -150,7 +151,7 @@ exports[`UserListScreen Snapshot matches snapshot on error 1`] = `
       testID="outer-circle"
     />
     <Text>
-      Manager
+      MANAGER
     </Text>
   </View>
   <Text
@@ -161,7 +162,7 @@ exports[`UserListScreen Snapshot matches snapshot on error 1`] = `
       }
     }
   >
-    Admin
+    ADMIN
      Users
   </Text>
   <View
@@ -193,6 +194,7 @@ exports[`UserListScreen Snapshot matches snapshot with data 1`] = `
 <View
   style={
     {
+      "backgroundColor": "#FFFFFF",
       "flex": 1,
       "padding": 30,
     }
@@ -278,7 +280,7 @@ exports[`UserListScreen Snapshot matches snapshot with data 1`] = `
       />
     </View>
     <Text>
-      Admin
+      ADMIN
     </Text>
   </View>
   <View
@@ -339,7 +341,7 @@ exports[`UserListScreen Snapshot matches snapshot with data 1`] = `
       testID="outer-circle"
     />
     <Text>
-      Manager
+      MANAGER
     </Text>
   </View>
   <Text
@@ -350,7 +352,7 @@ exports[`UserListScreen Snapshot matches snapshot with data 1`] = `
       }
     }
   >
-    Admin
+    ADMIN
      Users
   </Text>
   <View
@@ -366,12 +368,12 @@ exports[`UserListScreen Snapshot matches snapshot with data 1`] = `
           {
             "id": "1",
             "name": "John Doe",
-            "role": "Admin",
+            "role": "ADMIN",
           },
           {
             "id": "2",
             "name": "Jane Smith",
-            "role": "Admin",
+            "role": "ADMIN",
           },
         ]
       }
@@ -456,7 +458,7 @@ exports[`UserListScreen Snapshot matches snapshot with data 1`] = `
                   }
                 }
               >
-                Admin
+                ADMIN
               </Text>
             </View>
           </View>
@@ -525,7 +527,7 @@ exports[`UserListScreen Snapshot matches snapshot with data 1`] = `
                   }
                 }
               >
-                Admin
+                ADMIN
               </Text>
             </View>
           </View>

@@ -10,14 +10,12 @@ describe("Listing component", () => {
   ];
 
   it("matches snapshot with provided data", () => {
-    const { toJSON } = render(
-      <Listing data={mockData} roleType={Roles.ADMIN} />
-    );
+    const { toJSON } = render(<Listing data={mockData} />);
     expect(toJSON()).toMatchSnapshot();
   });
 
   it("matches snapshot with empty data (uses mockedData)", () => {
-    const { toJSON } = render(<Listing data={[]} roleType={Roles.MANAGER} />);
+    const { toJSON } = render(<Listing data={[]} />);
     expect(toJSON()).toMatchSnapshot();
   });
 });

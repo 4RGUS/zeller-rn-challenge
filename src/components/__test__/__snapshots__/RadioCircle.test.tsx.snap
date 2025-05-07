@@ -13,6 +13,7 @@ exports[`RadioCircle component matches snapshot when not selected 1`] = `
       "width": 18,
     }
   }
+  testID="outer-circle"
 />
 `;
 
@@ -29,6 +30,7 @@ exports[`RadioCircle component matches snapshot when selected 1`] = `
       "width": 18,
     }
   }
+  testID="outer-circle"
 >
   <View
     style={
@@ -39,6 +41,7 @@ exports[`RadioCircle component matches snapshot when selected 1`] = `
         "width": 8,
       }
     }
+    testID="inner-circle"
   />
 </View>
 `;
